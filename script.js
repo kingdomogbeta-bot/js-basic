@@ -19,7 +19,7 @@ if (finalExam < 0) {
 const assignmentAverage = (assignment1 + assignment2) / 2;
 
 
-const finalGrade = (assignmentAverage * 0.4) + (finalExam * 0.6);
+const finalGrade = (assignmentAverage  + finalExam )* 0.6;
 
 const hasPassed = finalGrade >= 70;
 
